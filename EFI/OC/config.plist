@@ -155,6 +155,13 @@
 					<key>ioname</key>
 					<data>IwAAAA==</data>
 				</dict>
+				<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
+				<dict>
+					<key>device-id</key>
+					<data>8hUAAA==</data>
+					<key>subsystem-id</key>
+					<data>FfMAAA==</data>
+				</dict>
 				<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 				<dict>
 					<key>layout-id</key>
@@ -211,24 +218,6 @@
 		<dict>
 			<key>Add</key>
 			<array>
-				<dict>
-					<key>Arch</key>
-					<string>Any</string>
-					<key>BundlePath</key>
-					<string>AppleIGC.kext</string>
-					<key>Comment</key>
-					<string>AppleIGC.kext</string>
-					<key>Enabled</key>
-					<true />
-					<key>ExecutablePath</key>
-					<string>Contents/MacOS/AppleIGC</string>
-					<key>MaxKernel</key>
-					<string></string>
-					<key>MinKernel</key>
-					<string></string>
-					<key>PlistPath</key>
-					<string>Contents/Info.plist</string>
-				</dict>
 				<dict>
 					<key>Arch</key>
 					<string>Any</string>
@@ -480,7 +469,7 @@
 				<key>CustomSMBIOSGuid</key>
 				<true />
 				<key>DisableIoMapper</key>
-				<true />
+				<false />
 				<key>DisableIoMapperMapping</key>
 				<false />
 				<key>DisableLinkeditJettison</key>
@@ -867,7 +856,7 @@
 					<key>SystemAudioVolume</key>
 					<data>Rg==</data>
 					<key>boot-args</key>
-					<string>-amfipassbeta revpatch=sbvmm</string>
+					<string>-amfipassbeta revpatch=sbvmm e1000=1</string>
 					<key>csr-active-config</key>
 					<data>AwgAAA==</data>
 					<key>prev-lang:kbd</key>
