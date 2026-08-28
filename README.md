@@ -26,6 +26,8 @@ Outro ajuste necessário é adicionar uma SMBIOS válida para permitir que algum
 
 **Nota²:** Para problema de áudio, basta seguir com o tutorial do **perez987**. Baixe a versão do Kernel Debug Kit igual ou mais próxima da versão do seu Mac.
 
+**Nota³:** Eu estava fazendo downloads no qbittorrent e de repente o PC reiniciou sozinho, pelo que vi é um bug de estouro da memória de rede causado pela kext AppleIGC. Se para você não tiver nenhum problema, pode manter do jeito que está.
+
 ## Versão do Opencore
 
 1.0.7
